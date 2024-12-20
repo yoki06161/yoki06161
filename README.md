@@ -1,13 +1,10 @@
 ### ![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=%20Jaesung&nbsp;Park%20%20&height=200&fontSize=90&fontColor=ffffff)
 
-<h1 align="center">My Language</h1>
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoki06161&layout=compact&custom_title=My%20Language" alt="Top Langs"/>
-  </a>
-</p>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yoki06161&layout=compact&custom_title=My&nbsp;Language&nbsp;)](https://github.com/anuraghazra/github-readme-stats)
+
 
 <h1 align="center">STACKS</h1>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-007396?logo=java&logoColor=white&style=flat-square" alt="Java" /> 
