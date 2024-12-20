@@ -3,9 +3,6 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yoki06161&layout=compact&custom_title=My&nbsp;Language&nbsp;)](https://github.com/anuraghazra/github-readme-stats)
 
 
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/2913/2913035.png" width="60" alt="Stacks Icon" />
-</p>
 <h1 align="center" style="border:none;">STACKS</h1>
 
 <p align="center">
