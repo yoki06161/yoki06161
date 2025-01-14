@@ -17,3 +17,7 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=flat-square" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=flat-square" alt="CSS3" />
 </p>
+
+### 주요 프로젝트
+- [Book-Dream-Portfolio](https://github.com/yoki06161/Book-Dream-Portfolio): 중고 서적 거래 및 실시간 채팅 기능 구현
+- [Movie-Booking](https://github.com/yoki06161/Movie-Booking): 간단한 영화 예매 시스템
