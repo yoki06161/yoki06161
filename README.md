@@ -20,5 +20,4 @@
 
 ### 주요 프로젝트
 - [Book-Dream-Portfolio](https://github.com/yoki06161/Book-Dream-Portfolio): 중고 서적 거래 및 실시간 채팅 기능 구현
-- [Food-Delivery](https://github.com/yoki06161/Food-Delivery): 실시간 음식 배달 시스템
 - [Movie-Booking](https://github.com/yoki06161/Movie-Booking): 간단한 영화 예매 시스템
