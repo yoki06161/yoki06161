@@ -68,4 +68,3 @@
   - **Redis**로 인기 영화 목록 캐싱 → DB 부하 감소  
   - **Swagger(OpenAPI)** 로 주요 Endpoint 확인 및 테스트
 
----
