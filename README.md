@@ -55,8 +55,19 @@
   - **SpringDoc(Swagger)** 사용으로 API 문서화
 
 ---
+### 3. [E-Commerce](https://github.com/yoki06161/Ecommerce-Demo)
+> **간단한 전자상거래 시스템**
 
-### 3. [Movie-Booking](https://github.com/yoki06161/Movie-Booking)
+- **주요 기술 스택**: Spring Boot, Spring Data JPA, MySQL, RabbitMQ, Docker Compose
+- **주요 기능**  
+  - **회원(User)・상품(Product)・주문(Order)** 도메인 설계  
+  - **주문 생성 시 재고 차감** 및 **RabbitMQ** 이벤트 발행  
+  - Docker Compose를 이용해 **MySQL & RabbitMQ**를 로컬 환경에서 간단 실행  
+- **특이사항**  
+  - 주문 성공 시 **재고 감소** + **이벤트 발행** → Consumer가 이벤트 처리 (확장 시, 배송/알림 등)  
+  - 향후 JWT 인증, 결제 로직, CI/CD 등 기능 확장 가능
+---
+### 4. [Movie-Booking](https://github.com/yoki06161/Movie-Booking)
 > **간단한 영화 예매 시스템**
 
 - **주요 기술 스택**: Spring Boot, Spring Data JPA, MySQL, Redis, Docker, JWT  
