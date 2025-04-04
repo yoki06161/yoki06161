@@ -56,7 +56,7 @@
   - **SpringDoc(Swagger)** 사용으로 API 문서화
 
 ---
-### 3. [E-Commerce](https://github.com/yoki06161/Ecommerce-Demo)
+### 3. [E-Commerce](https://github.com/yoki06161/E-Commerce)
 > **간단한 전자상거래 시스템**
 
 - **주요 기술 스택**: Spring Boot, Spring Data JPA, MySQL, RabbitMQ, Docker Compose
