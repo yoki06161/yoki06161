@@ -28,8 +28,26 @@
 
 ## 주요 프로젝트
 
-### 1. [Book-Dream-Portfolio](https://github.com/yoki06161/Book-Dream-Portfolio)
+### 1. [Solebid](https://github.com/yoki06161/Solebid)
+> **스니커즈 경매 기반 이커머스 서비스**
+
+- **주요 기술 스택**
+  - **Frontend**: React, TypeScript, Vite, Tailwind CSS, React Router
+  - **Backend**: Spring Boot, Spring Security, JPA, MySQL, Redis, AWS S3
+- **주요 기능**
+  - **실시간 경매**: SSE(Server-Sent Events)를 이용한 실시간 입찰 정보 업데이트
+  - **결제 시스템**: PortOne 연동을 통한 포인트 충전 및 결제
+  - **상품 등록**: AWS S3 프리사인(pre-signed) URL을 활용한 이미지 업로드
+  - **사용자 기능**: 소셜/이메일 로그인, 프로필 관리, 위시리스트, 장바구니, 주문 내역 조회
+- **특이사항**
+  - React 19, TypeScript 등 최신 프론트엔드 기술 스택 활용
+  - SSE를 적용하여 실시간성이 중요한 경매 기능 구현
+
+ ---
+ 
+### 2. [Book-Dream-Portfolio](https://github.com/yoki06161/Book-Dream-Portfolio)
 > **중고 서적 거래 & 실시간 채팅(WebSocket) 기능 구현**
+
 
 - **주요 기술 스택**: Spring Boot, Spring Data JPA, MySQL, Thymeleaf, JavaScript, WebSocket(SockJS + STOMP), Jsoup  
 - **주요 기능**  
@@ -40,43 +58,5 @@
   - Jsoup 사용한 **크롤링** 구현  
   - WebSocket 환경 설정 & 메시지 송수신 프로세스(Controller/Service/Entity) 설계  
 
----
 
-### 2. [Food-Delivery](https://github.com/yoki06161/Food-Delivery)
-> **Spring Boot + JPA + Redis + JWT + WebSocket + OAuth2(구글) 로그인** 등 다양한 기능 통합 구현
-
-- **주요 기술 스택**: Spring Boot, Spring Security, JWT, OAuth2(Client), JPA, Redis, WebSocket(STOMP), MySQL  
-- **주요 기능**  
-  - **회원 권한**(CUSTOMER, OWNER, RIDER, ADMIN)별로 다른 비즈니스 로직 적용  
-  - **주문-결제-배달 전체 플로우** 간단 시뮬레이션  
-  - **Redis 캐싱** & WebSocket 을 통한 실시간 위치(라이더) 업데이트  
-  - **Google OAuth2** 로그인 후 JWT 발급  
-- **특이사항**  
-  - 배달 상태 변경을 실시간으로 확인할 수 있는 **WebSocket** 브로드캐스팅  
-  - **SpringDoc(Swagger)** 사용으로 API 문서화
-
----
-### 3. [E-Commerce](https://github.com/yoki06161/E-Commerce)
-> **간단한 전자상거래 시스템**
-
-- **주요 기술 스택**: Spring Boot, Spring Data JPA, MySQL, RabbitMQ, Docker Compose
-- **주요 기능**  
-  - **회원(User)・상품(Product)・주문(Order)** 도메인 설계  
-  - **주문 생성 시 재고 차감** 및 **RabbitMQ** 이벤트 발행  
-  - Docker Compose를 이용해 **MySQL & RabbitMQ**를 로컬 환경에서 간단 실행  
-- **특이사항**  
-  - 주문 성공 시 **재고 감소** + **이벤트 발행** → Consumer가 이벤트 처리 (확장 시, 배송/알림 등)  
-  - 향후 JWT 인증, 결제 로직, CI/CD 등 기능 확장 가능
----
-### 4. [Movie-Booking](https://github.com/yoki06161/Movie-Booking)
-> **간단한 영화 예매 시스템**
-
-- **주요 기술 스택**: Spring Boot, Spring Data JPA, MySQL, Redis, Docker, JWT  
-- **주요 기능**  
-  - **영화 정보** & **상영 스케줄** 조회, 좌석 예매  
-  - 예매 시 **동시성 제어(비관적 락)** 적용으로 좌석 중복 예약 방지  
-  - **Docker & docker-compose** 를 이용해 MySQL, Redis, Spring Boot 컨테이너 실행  
-- **특이사항**  
-  - **Redis**로 인기 영화 목록 캐싱 → DB 부하 감소  
-  - **Swagger(OpenAPI)** 로 주요 Endpoint 확인 및 테스트
 
